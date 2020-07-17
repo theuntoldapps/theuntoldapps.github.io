@@ -1,0 +1,119 @@
+<hr/>
+<h2>Comments</h2>
+
+<div>
+  <ul id="commentsList">
+  </ul>
+</div>
+
+<br>
+<h4>Leave a Reply</h4>
+<h5>Your email address will not be published. Required fields are marked *</h5>
+
+<form id="addComment">
+  <label for="text">* Comment:</label><br>
+  <textarea id="text" name="text" style="font-size: 1em;" rows="3" cols="60" required></textarea><br>
+  <label for="userName">* Name:</label><br>
+  <input type="text" id="userName" name="userName" value="" required><br>
+  <label for="email">* Email:</label><br>
+  <input type="email" id="email" name="email" value="" required><br>
+  <input class="btn" type="submit" value="Submit">
+</form> 
+
+<script>
+window.addEventListener("load", function() {
+  var form = document.getElementById("addComment");
+  const url = "{{ site.backend }}/?blogUid={{ page.blogUid }}"
+  const xhr = new XMLHttpRequest();
+  let commentsArray = [];
+  xhr.addEventListener("readystatechange", function() {
+    if(this.readyState === 4) {
+      commentsArray = JSON.parse(this.responseText).result;
+      showComments(commentsArray);
+      // console.log(this.responseText);
+    }
+  });
+  xhr.open("GET", url);
+  xhr.send();
+
+  function getFormData() {
+    const formData = new FormData(form);
+    const obj = {};
+    for (const pair of formData.entries()) {
+      obj[pair[0]] = pair[1];
+    }
+    obj.blogUid = '{{ page.blogUid }}';
+    return obj;
+  }
+  
+  function handleSubmit(data) {
+    const url = "{{ site.backend }}";
+    const xhr = new XMLHttpRequest();
+
+    xhr.addEventListener("readystatechange", function() {
+      if(this.readyState === 4) {
+        // console.log(this.responseText);
+        window.location.reload();
+      }
+    });
+
+    xhr.open("POST", url);
+    xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.send(JSON.stringify(data));
+    return false;
+  }
+
+  function timestampToHumanDate(ts) {
+    const leftPad = (s, c, n) => c.repeat(n - s.length) + s
+    ts += 19800000
+    const d = new Date(ts)
+    const timestamp = leftPad(d.getUTCFullYear().toString(), "0", "4") + "-" +
+                    leftPad((d.getUTCMonth()+1).toString(), "0", "2") + "-" +
+                    leftPad(d.getUTCDate().toString(), "0", "2") +
+                    " " +
+                    leftPad(d.getUTCHours().toString(), "0", "2") + ":" + 
+                    leftPad(d.getUTCMinutes().toString(), "0", "2") + ":" +
+                    leftPad(d.getUTCSeconds().toString(), "0", "2");
+    return timestamp
+  }
+
+  function showComments(commentsArray) {
+    // console.log("commentsArray", commentsArray);
+    const commentsList = document.getElementById("commentsList");
+    for (const comment of commentsArray) {
+      let elem = document.createElement('li');
+      elem.className = 'comment';
+      let div = document.createElement('div');
+      const usernameTag = document.createElement('span');
+      usernameTag.className = 'commentUsername';
+      usernameTag.innerHTML = `${comment.userName}`;
+
+      if (comment.admin === true) {
+        usernameTag.id = 'adminComment'
+        usernameTag.innerHTML = `MOD @ ${comment.userName}`;
+      }
+
+      const textTag = document.createElement('span');
+      textTag.className = 'commentText';
+      textTag.innerHTML = comment.text;
+
+      const timestampTag = document.createElement('span');
+      timestampTag.className = 'timestamp';
+      timestampTag.innerHTML = timestampToHumanDate(comment.timestamp);
+
+      div.append(usernameTag);
+      div.append(textTag);
+      div.append(timestampTag);
+      elem.append(div);
+      commentsList.append(elem);
+    }
+  }
+
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    const data = getFormData();
+    handleSubmit(data)
+  });
+});
+</script>

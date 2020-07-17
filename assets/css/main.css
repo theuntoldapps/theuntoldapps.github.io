@@ -228,3 +228,123 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+/* custom styles */
+
+.commentsList{
+  padding: 0;
+  margin: 0;
+}
+
+.comment {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.commentUsername {
+  padding: 1px 9px 2px;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.timestamp {
+  opacity: 0.7;
+  width: 100%;
+  display: block;
+  text-align: right;
+  font-size: .6em;
+}
+
+#adminComment {
+  padding: 1px 9px 2px;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #f1f2f1;
+  background-color: #666666;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.commentText {
+  display: block; 
+  font-size: 13px !important;
+  border:1px solid #ddd;
+  background:#f9f9f9;
+  padding:10px
+}
+
+.well {
+  width: 100%;
+  min-height: 20px;
+  padding: 30px;
+  text-align: center;
+  vertical-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 6px rgba(107,83,254,.1);
+}
+
+input {
+  display: block;
+  width: 50%;
+  margin: 0px;
+  padding: .375rem .75rem;
+  font-size: 0.6rem;
+  line-height: 1;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background-size: 16px 18px;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: .375rem .75rem;
+  font-size: 0.6rem;
+  line-height: 1;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background-size: 16px 18px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  font-size: 16px;
+  border-radius: .25rem;
+  padding: 8px 14px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  width: auto;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+}

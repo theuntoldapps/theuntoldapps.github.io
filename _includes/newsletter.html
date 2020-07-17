@@ -1,0 +1,50 @@
+<div class="well">
+    <p class="post-meta">Join our newsletter subscription and get curated blogs in your inbox</p>
+    <form id="newsLetter" style="margin: 30px; text-align: center;">
+        <input type="email" style="text-align: center; width: 100%; line-height: 1.5;" name="email" value=""
+            placeholder="Enter your email address" required>
+        <input class="btn" style="align-self: center" type="submit" value="Subscribe">
+    </form>
+    <p class="post-meta">Be a part of our growing community.</p>
+</div>
+
+<script>
+    window.addEventListener("load", function () {
+        var form = document.getElementById("newsLetter");
+        
+        function getFormData() {
+            const formData = new FormData(form);
+            const obj = {};
+            for (const pair of formData.entries()) {
+                obj[pair[0]] = pair[1];
+            }
+            return obj;
+        }
+
+        function handleSubmit(data) {
+            const url = "{{ site.backend }}/newsletter"
+            const xhr = new XMLHttpRequest();
+
+            xhr.addEventListener("readystatechange", function () {
+                if (this.readyState === 4) {
+                    console.log(this.responseText);
+                    const message = JSON.parse(this.responseText).result;
+                    alert(message);
+                    // window.location.reload();
+                }
+            });
+
+            xhr.open("POST", url);
+            xhr.setRequestHeader("Content-Type", "application/json");
+
+            xhr.send(JSON.stringify(data));
+            return false;
+        }
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+            const data = getFormData();
+            handleSubmit(data)
+        });
+    });
+</script>
