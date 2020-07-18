@@ -11,7 +11,7 @@ backend: "https://themythicalengineer.herokuapp.com"
 twitter_username: _sks147
 github_username:  sks147
 
-permalink: /:year/:month/:day/:title.html
+permalink: /:title.html
 
 # Build settings
 
