@@ -38,6 +38,7 @@ minima:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 sass:
   style: compressed
