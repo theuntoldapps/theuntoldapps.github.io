@@ -8,14 +8,13 @@ tags: productivity development macos
 comments: true
 blogUid: "1853e7e8-177f-459f-9cd3-62b704a48a0e"
 ---
-<br/>
 Are you tired of dragging windows around and resizing them everytime you open or close an app in your workspace?
 
 For the past several years I have tried numerous window management softwares like [Moom](https://manytricks.com/moom/), [Spectacle](https://www.spectacleapp.com/) and [Rectangle](https://rectangleapp.com/).
 
 I was using [Rectangle](https://rectangleapp.com/) since last year and was quite happy with the ability to move windows around quickly with keyboard shortcuts. I used to work on a multiple monitor setup, so it was easy to manage multiple windows and partitions on big screens.
 
-![Desk Setup](/assets/images/yabai/desk.jpg)
+![Desk Setup](/assets/images/desk.jpg)
 
 I was working on Linux for a while and bumped on [i3wm](https://i3wm.org/), which is a **tiling window manager**. The nicest thing about a tiling manager is you can control nearly everything from the keyboard.
 
@@ -46,7 +45,7 @@ csrutil disable
 * Verify that System Integrity Protection is turned off by running `csrutil status`, which returns System Integrity Protection status: unknown / disabled
 <br/>
 
-![csrutil status](/assets/images/yabai/csrutil_status.png)
+![csrutil status](/assets/images/csrutil_status.png)
 
 * You can use this while SIP is enabled, but you'll lose some cool features.
 
@@ -71,7 +70,7 @@ brew services start yabai
 
 You will get a prompt to allow `yabai` accessibility permissions. You can navigate to Security & Privacy, then Privacy, then Accessibility.
 
-![Accessibility Yabai](/assets/images/yabai/yabai_accessibility.png)
+![Accessibility Yabai](/assets/images/yabai_accessibility.png)
 
 Now install the scripting addition.
 ```
