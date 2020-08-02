@@ -8,7 +8,9 @@ tags: backend coding
 comments: true
 blogUid: "bf661676-519b-4463-8736-4e35030a2fa0"
 ---
-The Internet, or the World Wide Web has taken over the world and changed our livestyles. We are spending on average 6 - 8 hours online each day. Sites like Youtube, Wikipedia, Netflix etc. have evolved a lot and provide uniterrupted service 24x7 to the whole world. Software Engineers are working hard to create and maintain highly reliable systems like these. These engineers can be classified into two broad categories, Front-End & Back-End. Front-End engineers focus on User Interfaces, User Experience, Interactions, Animations and look and feel of the website which a user sees on the browser. Back-End engineers focus on providing functionality, building APIs, maintaining databases, scaling of infrastructure, improving performance etc. 
+The Internet, or the World Wide Web has taken over the world and changed our livestyles. We are spending on average 6 - 8 hours online each day. Sites like Youtube, Wikipedia, Netflix etc. have evolved a lot and provide uniterrupted service 24x7 to the whole world. Software Engineers are working hard to create and maintain highly reliable systems like these. These engineers can be classified into two broad categories, Front-End & Back-End. 
+
+Front-End engineers focus on User Interfaces, User Experience, Interactions, Animations and look and feel of the website which a user sees on the browser. Back-End engineers focus on providing functionality, building APIs, maintaining databases, scaling of infrastructure, improving performance etc. 
 
 In this blog post. I'll explain how to get started with back-end development with [Node.js](https://nodejs.org/en/). This will be a very basic introduction.
 
