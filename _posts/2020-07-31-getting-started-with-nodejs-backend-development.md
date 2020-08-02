@@ -1,6 +1,6 @@
 ---
 layout: post
-title: getting-started-with-nodejs-backend-development
+title: Getting Started with Node.js Backend Development
 date: 2020-07-31 19:30 +0530
 categories: development
 author: sks147
