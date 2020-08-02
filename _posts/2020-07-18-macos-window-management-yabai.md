@@ -2,7 +2,7 @@
 layout: post
 title: Yabai - Efficient window management on macOS
 date: 2020-07-18 08:20 +0530
-categories: 
+categories: tools
 author: sks147
 tags: productivity development macos
 comments: true

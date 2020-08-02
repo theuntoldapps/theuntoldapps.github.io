@@ -2,7 +2,7 @@
 layout: post
 title: Not just a Coder anymore
 date: 2020-07-21 06:47 +0530
-categories: 
+categories: skill
 author: sks147
 tags: agile collaboration communication scrum
 comments: true
