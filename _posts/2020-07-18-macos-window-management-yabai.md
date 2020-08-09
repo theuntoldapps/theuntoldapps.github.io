@@ -105,6 +105,8 @@ Make sure to restart the service to see the changes
 brew services restart yabai
 ```
 Here is a small demo of the working setup.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wPBS5EZ999Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="resp-container">
+    <iframe class="resp-iframe" src="https://www.youtube.com/embed/wPBS5EZ999Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Let me know your experience after using this window manager 🤟.
