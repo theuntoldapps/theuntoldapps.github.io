@@ -4,11 +4,11 @@ title: Getting Started with Node.js Backend Development
 date: 2020-07-31 19:30 +0530
 categories: development
 author: sks147
-tags: backend coding
+tags: backend coding nodejs http
 comments: true
 blogUid: "bf661676-519b-4463-8736-4e35030a2fa0"
 ---
-The Internet, or the World Wide Web has taken over the world and changed our livestyles. We are spending on average 6 - 8 hours online each day. Sites like Youtube, Wikipedia, Netflix etc. have evolved a lot and provide uniterrupted service 24x7 to the whole world. Software Engineers are working hard to create and maintain highly reliable systems like these. These engineers can be classified into two broad categories, Front-End & Back-End. 
+The Internet, or the World Wide Web has taken over the world and changed our lifestyles. We are spending on average 6 - 8 hours online each day. Sites like Youtube, Wikipedia, Netflix etc. have evolved a lot and provide uniterrupted service 24x7 to the whole world. Software Engineers are working hard to create and maintain highly reliable systems like these. These engineers can be classified into two broad categories, Front-End & Back-End. 
 
 Front-End engineers focus on User Interfaces, User Experience, Interactions, Animations and look and feel of the website which a user sees on the browser. Back-End engineers focus on providing functionality, building APIs, maintaining databases, scaling of infrastructure, improving performance etc. 
 
@@ -177,8 +177,6 @@ After running this code, try to visit these urls in your browser<br/>
 Now you can see that, output is changing as the relative path is changing. If you give anything other than `/html`, `/plain` and `/json`, it will show "Sorry, this page is not available".
 
 You can see that `<h1>Demo Page</h1>` is not rendered as html when we explicitly specified `Content-Type: text/plain`.
-
-`json` is the most used format for building backend APIs with node.js.
 
 But this is not how the production code is written for the backend APIs. Libraries such as [Express](https://expressjs.com/) are widely used, which allows us to write robust and secure code.
 

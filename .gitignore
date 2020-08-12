@@ -6,3 +6,6 @@ _site
 public
 template.md
 Gemfile.lock
+_drafts
+.Ulysses-Group.plist
+.Ulysses-Settings.plist
