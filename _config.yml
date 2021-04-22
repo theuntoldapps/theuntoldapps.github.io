@@ -52,6 +52,8 @@ header_pages:
 show_excerpts: false
 google_analytics: UA-145053791-1
 
+highlighter: rouge
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
