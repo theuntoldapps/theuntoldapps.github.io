@@ -6,6 +6,7 @@ categories: development
 author: sks147
 tags: script productivity
 comments: true
+blogUid: "37f3ca5e-2b3d-4fd8-9c8a-cc71618a83f7"
 ---
 
 In this blog post, I will show you the process of combining and converting a list of markdown files into kindle supported ebook (.mobi) format. 
