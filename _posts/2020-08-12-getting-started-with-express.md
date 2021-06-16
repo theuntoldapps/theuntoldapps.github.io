@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Express
 date: 2020-08-12 19:27 +0530
 categories: development
-author: sks147
+author: themythicalengineer
 tags: backend coding nodejs express
 comments: true
 blogUid: "79a1dd47-32ef-4d61-8aba-e16b30e11ccf"

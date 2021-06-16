@@ -1,5 +1,5 @@
 title: The Mythical Engineer
-author: themythicalengineer@gmail.com
+author: https://themythicalengineer.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog about Software Engineering
 
@@ -8,8 +8,8 @@ url: "https://themythicalengineer.com" # the base hostname & protocol for your s
 backend: "https://themythicalengineer.herokuapp.com"
 # backend: "http://localhost:5000"
 
-twitter_username: _sks147
-github_username:  sks147
+# twitter_username: _sks147
+# github_username:  sks147
 
 permalink: /:title.html
 
@@ -24,8 +24,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: _sks147
-    github: sks147
+    # twitter: _sks147
+    # github: sks147
     instagram: _themythicalengineer
 
 # If you want to link only specific pages in your header, uncomment

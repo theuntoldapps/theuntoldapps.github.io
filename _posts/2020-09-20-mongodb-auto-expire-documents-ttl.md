@@ -3,7 +3,7 @@ layout: post
 title: MongoDB Auto Expire Documents
 date: 2020-09-20 15:22 +0530
 categories: development
-author: sks147
+author: themythicalengineer
 tags: mongodb nodejs backend scaling
 comments: true
 blogUid: "54e22e16-4fda-44f7-a074-6909c5733114"

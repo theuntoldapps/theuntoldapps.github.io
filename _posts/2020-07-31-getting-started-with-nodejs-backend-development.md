@@ -3,7 +3,7 @@ layout: post
 title: Getting Started with Node.js Backend Development
 date: 2020-07-31 19:30 +0530
 categories: development
-author: sks147
+author: themythicalengineer
 tags: backend coding nodejs http
 comments: true
 blogUid: "bf661676-519b-4463-8736-4e35030a2fa0"
