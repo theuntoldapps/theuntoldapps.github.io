@@ -39,9 +39,9 @@ After the completion of the build, you can execute C++ in the deepnote notebook.
 
 ### Some things that don't work in this version, but maybe supported in upcoming versions of the kernel
 
-> 👉 1. Function redefinitions are not allowed. [Issue Link] (https://github.com/jupyter-xeus/xeus-cling/issues/91)
+1. Function redefinitions are not allowed. [Issue Link](https://github.com/jupyter-xeus/xeus-cling/issues/91)
 
-> 👉 2. You cannot define more than one function in a block. [Issue Link](https://github.com/jupyter-xeus/xeus-cling/issues/40)
+2. You cannot define more than one function in a block. [Issue Link](https://github.com/jupyter-xeus/xeus-cling/issues/40)
 
 You can also try to [build the latest version](https://root.cern/cling/cling_build_instructions/) and try out these features.
 
