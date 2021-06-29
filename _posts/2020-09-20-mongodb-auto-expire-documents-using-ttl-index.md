@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MongoDB Auto Expire Documents using TTL
+title: MongoDB Auto Expire Documents using TTL Index
 date: 2020-09-20 15:22 +0530
 categories: development
 author: themythicalengineer
