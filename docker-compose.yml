@@ -1,11 +1,13 @@
 version: '3.3'
 services:
   jekyll:
-    build:
-      context: ./
-      dockerfile: ./Dockerfile
+    platform: linux/amd64
+    image: jekyll/jekyll:4.0
+    container_name: jekyll
+    command: jekyll serve --force_polling --livereload
     ports:
-      - '4000:4000'
+      - 4000:4000
+      - 35729:35729
     volumes:
       - '$PWD:/srv/jekyll'
       - '$PWD/vendor/bundle:/usr/local/bundle'
