@@ -4,8 +4,8 @@ title: "List of most used Key-Value stores and databases"
 date: 2023-02-23 20:47 +0530
 categories: development
 author: themythicalengineer
-tags: development
-comments: true
+tags: development database cache scaling
+comments: false
 blogUid: 49d7b650-3fe5-4f3d-a9f7-3611d7d0afba
 ---
 
@@ -27,7 +27,7 @@ Redis is an in-memory database that persists on disk. The data model is key-valu
 **Created Date**: 2009-03-22
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: C, Tcl, Ruby, Python, Shell, Makefile, C++, Smarty
@@ -55,7 +55,7 @@ Distributed reliable key-value store for the most critical data of a distributed
 **Created Date**: 2013-07-07
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: Go, Shell, Jsonnet, Procfile, Makefile, Python, Dockerfile
@@ -83,7 +83,7 @@ LevelDB is a fast key-value storage library written at Google that provides an o
 **Created Date**: 2014-08-28
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: C++, C, CMake
@@ -111,7 +111,7 @@ A library that provides an embeddable, persistent key-value store for fast stora
 **Created Date**: 2012-11-30
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: C++, Java, C, Python, Perl, Shell, Makefile, CMake, PowerShell, Assembly, Dockerfile
@@ -139,10 +139,10 @@ A modern replacement for Redis and Memcached
 **Created Date**: 2021-12-11
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
-**Languages**: C++, C, Python, CMake, Shell, Smarty, Dockerfile, Makefile
+**Languages**: C++, C, Python, CMake, Shell, Smarty, Dockerfile, Makefile, Go
 
 
 **Is Project Archived**: No
@@ -167,7 +167,7 @@ A modern replacement for Redis and Memcached
 **Created Date**: 2011-10-26
 
 
-**Last Updated**: 2023-02-24
+**Last Updated**: 2023-03-01
 
 
 **Languages**: C++, JavaScript, NASL, CMake, C, Python, SCSS, EJS, CSS, TypeScript, Shell, Yacc, Pascal, NSIS, HTML, LLVM, Perl, PowerShell, Dockerfile
@@ -195,7 +195,7 @@ Distributed transactional key-value database, originally created to complement T
 **Created Date**: 2015-12-31
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: Rust, Makefile, Shell, Python, C, Dockerfile
@@ -223,7 +223,7 @@ memcached development tree
 **Created Date**: 2009-04-25
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: C, Perl, C++, M4, Python, Lua, DTrace, Shell, Makefile, Roff, Starlark
@@ -251,10 +251,10 @@ FoundationDB - the open source, distributed, transactional key-value store
 **Created Date**: 2017-12-14
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
-**Languages**: C++, C, Python, Java, Go, CMake, C#, HTML, Ruby, Shell, Assembly, JavaScript, CSS, Dockerfile, Rich Text Format
+**Languages**: C++, C, Python, Java, CMake, Go, C#, HTML, Ruby, Shell, Assembly, JavaScript, CSS, Dockerfile, Rich Text Format
 
 
 **Is Project Archived**: No
@@ -279,7 +279,7 @@ immudb - immutable database based on zero trust, SQL and Key-Value, tamperproof,
 **Created Date**: 2019-11-07
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: Go, Shell, Yacc, Makefile, Dockerfile, Roff, Python, Smarty, HTML, JavaScript
@@ -307,7 +307,7 @@ A Multithreaded Fork of Redis
 **Created Date**: 2019-02-01
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: C++, C, Tcl, Shell, Ruby, Makefile, Roff, Python, Assembly, Dockerfile, Smarty
@@ -335,7 +335,7 @@ Open-source distributed computation and storage platform. Real-time Stream Proce
 **Created Date**: 2012-03-21
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: Java, FreeMarker, Shell, Python, Batchfile, C, Kotlin
@@ -363,7 +363,7 @@ Apache Ignite
 **Created Date**: 2015-02-19
 
 
-**Last Updated**: 2023-02-23
+**Last Updated**: 2023-03-01
 
 
 **Languages**: Java, C#, C++, Python, Shell, CMake, Batchfile, Jinja, FreeMarker, HTML, Dockerfile, PHP, PowerShell, C, JavaScript, Makefile
@@ -391,7 +391,7 @@ A high performance NoSQL Database Server powered by Go
 **Created Date**: 2014-04-30
 
 
-**Last Updated**: 2023-02-24
+**Last Updated**: 2023-03-01
 
 
 **Languages**: Go, Python, Shell, Dockerfile, C++, Makefile, C
@@ -419,10 +419,38 @@ Riak is a decentralized datastore from Basho Technologies.
 **Created Date**: 2010-04-16
 
 
-**Last Updated**: 2023-02-22
+**Last Updated**: 2023-03-01
 
 
 **Languages**: Shell, Erlang, Makefile, Emacs Lisp
+
+
+**Is Project Archived**: No
+
+---
+
+## skytable
+
+
+Skytable is a fast, secure and reliable realtime NoSQL database with keyspaces, tables, data types, authn/authz, snapshots and more to build powerful apps
+
+
+**Repository**: https://github.com/skytable/skytable
+
+
+![GitHub Repo stars](https://img.shields.io/github/stars/skytable/skytable?style=for-the-badge) ![GitHub forks](https://img.shields.io/github/forks/skytable/skytable?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/watchers/skytable/skytable?style=for-the-badge)
+
+
+![GitHub Repo stars](https://img.shields.io/github/issues-raw/skytable/skytable?style=for-the-badge) ![GitHub watchers](https://img.shields.io/github/issues-closed-raw/skytable/skytable?style=for-the-badge)
+
+
+**Created Date**: 2020-06-30
+
+
+**Last Updated**: 2023-03-01
+
+
+**Languages**: Rust, Perl, Shell, C, PowerShell, Dockerfile, Makefile
 
 
 **Is Project Archived**: No
@@ -447,7 +475,7 @@ Aerospike Database Server – flash-optimized, in-memory, nosql database
 **Created Date**: 2018-03-08
 
 
-**Last Updated**: 2023-02-16
+**Last Updated**: 2023-03-01
 
 
 **Languages**: C, C++, Makefile, Shell, CSS, Python, Roff, HTML, DTrace
@@ -475,7 +503,7 @@ A low-latency, cloud-native KVS
 **Created Date**: 2019-07-26
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: C++, Python, CMake, Shell, Dockerfile
@@ -503,7 +531,7 @@ High Performance Embedded Key-Value Store
 **Created Date**: 2021-07-13
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-02-28
 
 
 **Languages**: C, Shell, Python, Makefile, C++, Dockerfile
@@ -587,7 +615,7 @@ A library that provides an embedded, persistent key-value store.
 **Created Date**: 2022-02-22
 
 
-**Last Updated**: 2023-02-25
+**Last Updated**: 2023-03-01
 
 
 **Languages**: C++, Java, C, Python, Shell, Makefile, CMake, PowerShell, Assembly, Dockerfile
