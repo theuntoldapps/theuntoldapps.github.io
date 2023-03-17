@@ -16,7 +16,7 @@ Deepnote supports a lot of them!
 I was recently attempting to set up a [C++](https://root.cern/cling/) and [Javascript](https://github.com/n-riesco/ijavascript) kernels and finally figured out how to make it work. You can read more about [Interactive CPP with Cling](https://blog.llvm.org/posts/2020-11-30-interactive-cpp-with-cling/).
 
 ## Dockerfile for C++ Kernel 
-```bash
+```docker
 FROM deepnote/python:3.9
 RUN apt-get update && \
     apt-get install -y g++ libtinfo5
