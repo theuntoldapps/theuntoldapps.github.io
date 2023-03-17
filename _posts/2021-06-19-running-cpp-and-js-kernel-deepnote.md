@@ -5,7 +5,7 @@ date: 2021-06-19 17:19 +0530
 categories: tools
 author: themythicalengineer
 tags: development jupyter docker deepnote
-comments: true
+comments: false
 blogUid: "b469d42a-bb71-4c8d-9016-487178ca7010"
 ---
 If you need to work with a language other than Python, the Jupyter ecosystem offers a wide range of other kernels.
