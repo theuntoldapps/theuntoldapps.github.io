@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "How to get rid of Glance Android app"
-date: 2023-03-21 08:47 +0530
+date: 2023-03-21 08:20 +0530
 categories: development
 author: themythicalengineer
 tags: android glance bloatware
-comments: true
+comments: false
 blogUid: f54e9647-aefa-4ead-bcbb-93e35089e078
 ---
 
