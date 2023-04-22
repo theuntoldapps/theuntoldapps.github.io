@@ -1,58 +1,34 @@
-title: The Mythical Engineer
-author: https://themythicalengineer.com
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog about Software Engineering
-
-baseurl: ""
-url: "https://themythicalengineer.com" # the base hostname & protocol for your site, e.g. http://example.com
-backend: "https://themythicalengineer.herokuapp.com"
-# backend: "http://localhost:5000"
-
-# twitter_username: _sks147
-# github_username:  sks147
-
-permalink: /:title.html
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-
-collections:
-  authors:
-    output: true
-
-minima:
-  date_format: "%b %-d, %Y"
-
-  # generate social links in footer
-  social_links:
-    # twitter: _sks147
-    # github: sks147
-    instagram: _themythicalengineer
-
-# If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
-
-# Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
-
-sass:
-  style: compressed
-
-collections:
-  authors:
-    output: true
-
-header_pages:
-  - authors.md
-
-show_excerpts: false
-google_analytics: UA-145053791-1
-
-highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
