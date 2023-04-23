@@ -2,9 +2,9 @@
 layout: post
 title: "Sorting instagram posts by likes"
 date: 2023-04-22 14:48 +0530
-categories: development
+categories: script instagram tech-hacks
 author: theuntoldapps
-tags: development script
+tags: script instagram tech-hacks
 comments: true
 blogUid: dee396f8-6b2c-4b99-9f45-8e4a73b8e37a
 ---

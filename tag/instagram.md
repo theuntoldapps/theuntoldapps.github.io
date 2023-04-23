@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: macos"
-tag: macos
+title: "Tag: instagram"
+tag: instagram
 robots: noindex
 ---
