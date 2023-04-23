@@ -23,7 +23,7 @@ layout: post
 title: "${*}"
 date: ${post_date}
 categories: development
-author: themythicalengineer
+author: theuntoldapps
 tags: development
 comments: true
 blogUid: $blogUid
