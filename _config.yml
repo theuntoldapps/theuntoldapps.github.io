@@ -18,8 +18,9 @@ email: theuntoldapps@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog by the untold apps. Mostly technical and software engineering, sometimes
   philosiphical and fictional
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://theuntoldapps.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:title/
 twitter_username: theuntoldapps
 github_username:  theuntoldapps
 
@@ -28,6 +29,10 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  social_links:
+        instagram: theuntoldapps
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
